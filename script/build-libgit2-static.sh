@@ -16,5 +16,4 @@ cmake -DTHREADSAFE=ON \
       -DCMAKE_INSTALL_PREFIX=../install \
       .. &&
 
-cmake --build . &&
-make install
+cmake --build . --target install
